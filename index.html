@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+        
+        <title>Jackeline</title>
+    </head>
+
+    <body>
+        
+            
+        <!--o primeiro corpo não tem cabeçalho  -->
+        <section class="apresentacao">
+            <!-- primeira foto -->
+            <section id="quem-eu-sou">
+                    <div id="foto">
+                        <img src="assets/imagens/fotoAprese1.jpeg" />
+                    </div>
+        
+                    <div class="descricao">
+                        <h2>Quem eu sou</h2>
+                        <h1>Maria Jackeline da Silva</h1>
+                        <p>32 anos</p>
+                        <p>Nasci no Estado de Pernambuco, atualmente moro em São Paulo.
+                             Sou mãe do Miguel de nove anos.<br> Gosto de vivenciar coisas novas e empolgantes</p>
+                    </div>
+                   
+            </section>
+           
+           <!-- dentro do primeiro corpo tem um menu -->
+            <nav class="menu">
+                    <ul>
+                        
+                        <li id="eu-sou">
+                            <a href="#quem-eu-sou">Quem eu sou</a>
+                        </li>
+                        <li id="gosto-de">
+                            <a href="#hobbies-e-interesses">Hobbies e Interesses</a>
+                        </li>
+                        <li id="em-contato">
+                            <a href="#contatos">Contatos</a>
+                        </li>
+                        
+                    </ul>
+            </nav>
+            
+        </section>
+
+       
+        <!-- segundo corpo foi duvidido em três containers -->
+        <section id="hobbies-e-interesses">
+            
+           <div class="container1">
+
+                <div id="retangulo1"></div>
+
+                    <div class="familia">
+                        <h2>Hobbies e Interesses</h2>
+                    </div>
+                        
+                    <p>O lazer em família me reabastece de energia para o dia-a-dia.<br>
+                         Gosto de explorar lugares novos e antigos.<br>
+                          Sentir a sensação do ambiente e satisfação estar ali.
+                    </p>    
+                    <div class="coluna1">
+                        <img src="assets/imagens/colagenFt.jpg" alt="foto de viagens">
+                    </div>
+                    
+            </div>
+
+
+            <div class="container2">
+
+                    <div class="coluna2">
+                        <img src="assets/imagens/tulipas.jfif" alt="jardim de tutipas">
+                    </div>
+                    <div class="sonho">
+                        <p>Meu primeiro sonho que vou realizar em comemoração<br> a minhas realizações é viajar para ver o
+                            Jardins de Tulipa na Holanda e<br> depois viajar para conhecer o Mundo com meu filho.
+                        </p>
+                    </div>
+                    <div id="retangulo2"></div>
+            </div>
+
+            <div class="container3">
+
+                    <div id="retangulo3"></div>  
+                    <div classe="desafio">
+                        <p>Me torna DEV learning, é um grande desafio, pois trabalhei<br> e estudei por 10 anos em farmácia,
+                             e hoje me aventuro nesse desconhecido. A euforia me consome,<br> a minha menti se senti nova com meus primeiros códigos.
+                        </p>
+                    </div>
+                    <div class="coluna3">
+                        <img src="assets/imagens/meme.jfif" alt="homem fazendo careta">
+                    </div>
+                    
+            </div>
+        </section>
+       
+         <!-- terceiro corpo os contatos -->
+        <section id="contatos">
+                        <h4>Contatos</h4>
+                    <div>
+                        <img src="assets/logotipos/envelope-at-fill.svg" alt="logotipo de um envelope indicando e-mail"> <a href="https://account.microsoft.com/profile/?refd=outlook.live.com"
+                        target="_blank">ma.jaq@outlook.com</a>
+                    </div>
+                    <div>
+                        <img src="assets/logotipos/linkedin.svg" alt="logotipo do linkedin"><a href="https://www.linkedin.com/in/maria-jackeline-silva-9112481b3/" target="_blank">Linkedin</a>
+                    </div>
+                    <div>
+                        <img src="assets/logotipos/github (1).svg" alt="logotipo do github, desenho de um gato preto"><a href="https://github.com/MaryJackS" target="_blank">GitHub</a>
+                    </div>
+                    
+            <form action="getform.php" method="post">
+            
+                    <div>
+                        <label for="nome">Nome: </label>
+                        <input id="nome"type="text" placeholder="Nome" />
+                    </div>
+                    <div>
+                        <label for="email">e-mail: </label>
+                        <input id="email"type="email" placeholder="e-mail"/>
+                    </div>
+                    <textarea name="Comentários" id="comentarios" cols="30" rows="5" placeholder="Comentários"></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+            
+            </form>
+        
+        </section>
+
+</body>
+
+</html>
